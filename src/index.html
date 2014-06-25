@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>ng-collapsiblePanel</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body ng-controller="MainCtrl">
+    <collapsible-section header="Account Details" classname="accountDetails" init-state="open">
+      <h4>Here is the content</h4>
+      <p>Here is where we have all of the content.</p>
+    </collapsible-section>
+    <collapsible-section header="Account Details" classname="accountDetails" init-state="closed">
+      <h4>Here is the content</h4>
+      <p>Here is where we have all of the content.</p>
+    </collapsible-section>
+
+    <script data-require="jquery@2.0.3" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script data-require="angular.js@1.2.x" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js" data-semver="1.2.17"></script>
+    <script src="js/app.js"></script>
+  </body>
+
+</html>

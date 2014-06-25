@@ -1,0 +1,10 @@
+
+.collSectionCaptionWrapper { padding: 9px 0; border-bottom: 1px solid #dedede; }
+.collSectionCaption { display: inline-block; position: relative; font-size: 16px; font-weight: bold; color: #424242; margin-left: 13px; cursor: pointer; }
+.collSectionCaption .arrowDown, .collSectionCaption .arrowUp  { margin: 0 12px 3px 0; }
+.collSection { padding: 9px 18px; border-bottom: 1px solid #dedede; }
+.collSectionContainer:last-child .collSection { border-bottom: 0; }
+
+.arrowDown, .arrowUp { display: inline-block; width: 7px; height: 8px; background-image: url('../assets/carets.png'); background-repeat: no-repeat; }
+.arrowDown { background-position: 0 -8px; }
+.arrowUp { background-position: -7px -8px; }
